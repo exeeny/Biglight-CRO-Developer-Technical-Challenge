@@ -33,7 +33,7 @@ Based on the device type, list of products is identified using selectors, in whi
 
   
 
-Since there is no data in the UI about previous price or saving amount, the script makes an asynchronous graphqL api call to retrieve information needed for further calculations.
+Since there is no data in the UI about previous price or saving amount, the script makes an asynchronous GraphQL API call to retrieve information needed for further calculations.
 
   
 
@@ -74,10 +74,10 @@ In addition, we also check window resizing and apply our changes with debouncing
 ## Assumptions:
 
  - The ability to fetch cart data using cookie values such as cart id   
-   and anonymous user id if he's not logged in.
+   and anonymous user id if the user not logged in.
  - Classnames and identifiers are unchangeable.
  - There is only one locale (if there's going to be more than one   
-   locale, i assume it can be also access via cookies)
+   locale, I assume it can be also access via cookies)
 
   
 
@@ -131,4 +131,4 @@ https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmp
    variable handling.
  - AI assisted in fixing edge cases like promo code + discount   
    interactions/dynamic cart updates
- - Organizing readme file for better readability
+ - Organizing README file for better readability
