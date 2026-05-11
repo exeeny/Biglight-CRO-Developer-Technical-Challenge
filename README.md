@@ -2,6 +2,19 @@
 
 This Tampermonkey script enhances the basket page experience by showing discount information (save percentage and previous price) that is not available in the UI by default.
 
+
+## Showcase with different cases consideration
+1. display product discount if there's any + showcasing total saving amount and right subtotal
+<img width="360" height="862" alt="Screenshot 2026-05-11 083953" src="https://github.com/user-attachments/assets/a33a6ba0-d4a1-4880-8bbf-065ea8deea4b" />
+2. considering promo code use, display updated existing saving amount and subtotal
+<img width="352" height="863" alt="Screenshot 2026-05-11 084012" src="https://github.com/user-attachments/assets/68619f63-34c6-41d7-9bbe-fb42bd1bda98" />
+3. considering quantity change of discounted product without using promo code
+<img width="361" height="858" alt="Screenshot 2026-05-11 084030" src="https://github.com/user-attachments/assets/c28167af-2ca8-4101-b446-3bdad36afe78" />
+4. considering quantity change of discounted product with using promo code
+<img width="364" height="873" alt="Screenshot 2026-05-11 084046" src="https://github.com/user-attachments/assets/e185dd86-535e-404a-a875-54dd89258f6f" />
+
+
+
   
 
 My variation consists of:
@@ -92,15 +105,22 @@ https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmp
 
  1. Once downloaded, enable Tampermonkey on your page and enter manage
     extension settings.
- 2. In the opened page, you should enable Developer Mode and Allow User
-    Scripts.
- 3.  Once enabled, you can choose Create a new script from the extension
-    itself.
- 4. In the file editor, delete everything and paste the script from
-    script.js.
+    <img width="384" height="313" alt="Screenshot 2026-05-08 181315" src="https://github.com/user-attachments/assets/3f8c7b73-ca23-4175-8af8-6377a6cd358b" />
+    <img width="387" height="414" alt="Screenshot 2026-05-08 181623" src="https://github.com/user-attachments/assets/f5c582f8-eedc-4874-bcee-75dc35c7dbd5" />
+  
 
-  
-  
+ 3. In the opened page, you should enable Developer Mode and Allow User
+    Scripts.
+     <img width="835" height="126" alt="Screenshot 2026-05-08 181712" src="https://github.com/user-attachments/assets/45084519-40e5-4927-9da2-b714fe07ab5d" />
+    <img width="238" height="72" alt="Screenshot 2026-05-08 181726" src="https://github.com/user-attachments/assets/e6d2faec-48c4-4f9c-90da-cc8bbb5fb871" />
+ 5.  Once enabled, you can choose Create a new script from the extension
+    itself.
+<img width="342" height="495" alt="Screenshot 2026-05-08 181331" src="https://github.com/user-attachments/assets/421752ec-386c-41c2-b717-378ce8c4bd89" />
+
+ 7. In the file editor, delete everything and paste the script from
+    script.js.
+<img width="1541" height="740" alt="Screenshot 2026-05-08 181435" src="https://github.com/user-attachments/assets/eb8d7bcb-05ad-4ed0-a0f2-c56702c9a3fb" />
+8. save everything by ctrl+s and refresh the https://www.carparts4less.co.uk/basket page to see changes
 
 ## Use of AI
 
