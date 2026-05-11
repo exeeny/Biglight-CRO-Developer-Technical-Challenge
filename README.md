@@ -1,4 +1,4 @@
-# Basket Savings Reinforcement Experiment
+# Basket Savings Reinforcement Experiment by Kseniya Kravchenko.
 
 This Tampermonkey script enhances the basket page experience by showing discount information (save percentage and previous price) that is not available in the UI by default.
 
