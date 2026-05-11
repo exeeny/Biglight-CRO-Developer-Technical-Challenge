@@ -202,7 +202,6 @@ function addSavingTotal() {
   // if there's no promocode and no savings from discount (product was deleted for example) we remove it
   if (!promoCodeBlock && totalSavingAmount === 0) {
     if (discountSavingsBlock) {
-      console.log('No savings, removing block');
       discountSavingsBlock.remove();
     }
       return
